@@ -1,0 +1,6 @@
+framework module Pods_FuseGroupsKits_Tests {
+  umbrella header "Pods-FuseGroupsKits_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

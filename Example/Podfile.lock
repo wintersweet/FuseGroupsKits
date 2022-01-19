@@ -1,0 +1,23 @@
+PODS:
+  - CTMediator (46)
+  - FuseGroupsKits (0.1.0):
+    - CTMediator
+
+DEPENDENCIES:
+  - FuseGroupsKits (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CTMediator
+
+EXTERNAL SOURCES:
+  FuseGroupsKits:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTMediator: f1cf58d509fb3192086c367711f039efd769b907
+  FuseGroupsKits: 06f72be95a386c305a7a9679e1f6f60df1d34b31
+
+PODFILE CHECKSUM: bb7e61bf0c481df78e28262ae1679e289d5d8f87
+
+COCOAPODS: 1.11.2
