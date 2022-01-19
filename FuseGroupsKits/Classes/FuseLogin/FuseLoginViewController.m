@@ -4,28 +4,35 @@
 //
 //  Created by 胡冬冬 on 2022/1/19.
 //
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
 
 #import "FuseLoginViewController.h"
+#import <CTMediator/CTMediator.h>
 
 @interface FuseLoginViewController ()
+@property (nonatomic, strong) UIButton *loginBtn;
 
 @end
 
 @implementation FuseLoginViewController
 
 - (void)viewDidLoad {
+
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)btnClick{
 }
-*/
-
+-(UIButton *)loginBtn{
+    if (!_loginBtn) {
+        _loginBtn = [[UIButton alloc] initWithFrame:CGRectMake((kScreenWidth-100)*0.5, 220, 100, 40)];
+        [_loginBtn setTitle:@"登录" forState:UIControlStateNormal];
+        [_loginBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [_loginBtn setBackgroundColor:[UIColor yellowColor]];
+        [_loginBtn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _loginBtn;
+}
+-(void)btnClick:(UIButton*)btn{
+    
+}
 @end

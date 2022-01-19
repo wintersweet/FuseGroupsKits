@@ -6,6 +6,7 @@
 //
 
 #import "Target_FuseLoginViewController.h"
+#import "FuseLoginViewController.h"
 
 @interface Target_FuseLoginViewController ()
 
@@ -13,19 +14,10 @@
 
 @implementation Target_FuseLoginViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+-(UIViewController*)Action_LoginViewController:(NSDictionary*)params{
+    FuseLoginViewController * vc  = [[FuseLoginViewController alloc]init];
+    vc.name = params[@"name"];
+    vc.age = ((NSNumber *)[params valueForKey:@"age"]).integerValue;
+    return vc;
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 @end

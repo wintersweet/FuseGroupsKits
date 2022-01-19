@@ -10,7 +10,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface FuseLoginViewController : UIViewController
-
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, assign) NSInteger age;
 @end
 
 NS_ASSUME_NONNULL_END
