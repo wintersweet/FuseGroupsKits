@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'FuseGroupsKits_Example' do
+  pod 'FuseGroupsKits', :path => '../'
+
+  target 'FuseGroupsKits_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
