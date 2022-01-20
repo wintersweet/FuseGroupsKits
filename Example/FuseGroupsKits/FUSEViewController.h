@@ -6,8 +6,8 @@
 //  Copyright (c) 2022 wintersweet. All rights reserved.
 //
 
-@import UIKit;
 
+#import <UIKit/UIKit.h>
 @interface FUSEViewController : UIViewController
 
 @end

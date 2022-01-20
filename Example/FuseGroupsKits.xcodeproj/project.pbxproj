@@ -21,6 +21,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		8069CD0F2799380E002A5D69 /* CTMediator+UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8069CD0E2799380E002A5D69 /* CTMediator+UserInfo.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8A2454A5507B55C5AA3ED5C9 /* Pods_FuseGroupsKits_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3DD4B24D4CBF49F68BE645B /* Pods_FuseGroupsKits_Tests.framework */; };
 		CDB43E1DD8073214BA32101A /* Pods_FuseGroupsKits_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DF7D0ADC991DD923BCA8C3 /* Pods_FuseGroupsKits_Example.framework */; };
@@ -61,6 +62,8 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		698AD87812F9368AAB146EE2 /* Pods-FuseGroupsKits_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuseGroupsKits_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FuseGroupsKits_Tests/Pods-FuseGroupsKits_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8069CD0D2799380E002A5D69 /* CTMediator+UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+UserInfo.h"; sourceTree = "<group>"; };
+		8069CD0E2799380E002A5D69 /* CTMediator+UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+UserInfo.m"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E62D1E701A272B4926AF0E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B3DF7D0ADC991DD923BCA8C3 /* Pods_FuseGroupsKits_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FuseGroupsKits_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* FUSEViewController.h */,
 				6003F5A6195388D20070C39A /* FUSEViewController.m */,
+				8069CD0D2799380E002A5D69 /* CTMediator+UserInfo.h */,
+				8069CD0E2799380E002A5D69 /* CTMediator+UserInfo.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -368,6 +373,7 @@
 			files = (
 				6003F59E195388D20070C39A /* FUSEAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* FUSEViewController.m in Sources */,
+				8069CD0F2799380E002A5D69 /* CTMediator+UserInfo.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

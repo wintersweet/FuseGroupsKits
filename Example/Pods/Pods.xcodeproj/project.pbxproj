@@ -25,7 +25,6 @@
 		B3BE8F979961BC77FA06A16BF43A14F6 /* CTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2E74791FBAEF93692D80AA8C0074CB /* CTMediator+HandyTools.m */; };
 		B7FEF377E3AE69AD3731EC0EA95D98CF /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B512F4907981BB55E9859A8D676E87C /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C643BF30424A882F2F7571DD8FC32E78 /* Pods-FuseGroupsKits_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4827A02BE2E7CD9700A216D4E5CF040C /* Pods-FuseGroupsKits_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8092DD8DB2CFA5C8315A1E5B0D0D0E9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F280F7C731953BEFF7624CCF5A3122D /* ReplaceMe.m */; };
 		EAEE20117ABE5388BFA2BE6BB04069FA /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 56475E748DED4AF0EB9AA2F483A19830 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE41BC6694F1C9FA2D24E0C5DC241A42 /* Pods-FuseGroupsKits_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A66527C9A65CACFF0579A003C61B518 /* Pods-FuseGroupsKits_Example-dummy.m */; };
 		FC48763D071B2B60A02B28A915F5DD9F /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C29CDE4D937F198C9989FC838DA321 /* CTMediator.m */; };
@@ -86,7 +85,6 @@
 		78C29CDE4D937F198C9989FC838DA321 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
 		7BA8E09DF2C533AD0D323CA102F6A3CA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7EAC3886F2EF2ED58332DB9751AAA805 /* FuseGroupsKits.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FuseGroupsKits.modulemap; sourceTree = "<group>"; };
-		7F280F7C731953BEFF7624CCF5A3122D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FuseGroupsKits/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		8069CCFD2797FC8A002A5D69 /* FuseLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FuseLoginViewController.h; sourceTree = "<group>"; };
 		8069CCFE2797FC8A002A5D69 /* FuseLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FuseLoginViewController.m; sourceTree = "<group>"; };
 		8069CD012797FCAB002A5D69 /* Target_FuseLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_FuseLoginViewController.h; sourceTree = "<group>"; };
@@ -279,7 +277,6 @@
 			isa = PBXGroup;
 			children = (
 				8069CCFC2797FC74002A5D69 /* FuseLogin */,
-				7F280F7C731953BEFF7624CCF5A3122D /* ReplaceMe.m */,
 				83B146BE2AAD08CAF6946C4E33277EE0 /* Pod */,
 				8487B58788F44870735F5C0977A76824 /* Support Files */,
 			);
@@ -539,7 +536,6 @@
 				8069CD042797FCAB002A5D69 /* Target_FuseLoginViewController.m in Sources */,
 				8069CD002797FC8A002A5D69 /* FuseLoginViewController.m in Sources */,
 				9B835C5F46E309DF7E3668F62CDBFD0A /* FuseGroupsKits-dummy.m in Sources */,
-				D8092DD8DB2CFA5C8315A1E5B0D0D0E9 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

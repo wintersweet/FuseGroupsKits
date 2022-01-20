@@ -17,9 +17,11 @@
 @implementation FuseLoginViewController
 
 - (void)viewDidLoad {
-
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor yellowColor];
+    [self.view addSubview:self.loginBtn];
 }
+
 - (void)btnClick{
 }
 -(UIButton *)loginBtn{
