@@ -2,9 +2,20 @@ PODS:
   - CTMediaKit (0.1.0):
     - CTMediator
   - CTMediator (46)
-  - FuseGroupsKits (1.0.2):
+  - FuseGroupsKits (1.0.3):
     - CTMediaKit
-    - CTMediator
+    - FuseGroupsKits/BaseComponent (= 1.0.3)
+  - FuseGroupsKits/BaseComponent (1.0.3):
+    - CTMediaKit
+    - FuseGroupsKits/BaseComponent/FuGrowTextView (= 1.0.3)
+    - FuseGroupsKits/BaseComponent/FuseLogin (= 1.0.3)
+    - FuseGroupsKits/BaseComponent/FuTextField (= 1.0.3)
+  - FuseGroupsKits/BaseComponent/FuGrowTextView (1.0.3):
+    - CTMediaKit
+  - FuseGroupsKits/BaseComponent/FuseLogin (1.0.3):
+    - CTMediaKit
+  - FuseGroupsKits/BaseComponent/FuTextField (1.0.3):
+    - CTMediaKit
 
 DEPENDENCIES:
   - FuseGroupsKits (from `../`)
@@ -22,8 +33,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   CTMediaKit: 3322e9cf3eacede045ffabbed465e970b31f18a7
   CTMediator: f1cf58d509fb3192086c367711f039efd769b907
-  FuseGroupsKits: 64189bdef882e41dc8c8e0527d3d1d2750e56b72
+  FuseGroupsKits: ceb3d3d1c863eb416d2f29df6518c47121fde094
 
-PODFILE CHECKSUM: e333d561bf1208844ff63e0dc4c663b74ebddd5f
+PODFILE CHECKSUM: 25ec68f0efe2b2c6c79e6235aa03097cb1772c35
 
 COCOAPODS: 1.11.2

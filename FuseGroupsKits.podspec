@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FuseGroupsKits'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'A short description of FuseGroupsKits.'
 
 # This description is used to generate tags and improve search results.
@@ -30,14 +30,28 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'FuseGroupsKits/Classes/**/*'
+#  s.source_files = 'FuseGroupsKits/Classes/BaseComponent/**/*'
   
-  # s.resource_bundles = {
-  #   'FuseGroupsKits' => ['FuseGroupsKits/Assets/*.png']
-  # }
+  s.subspec 'BaseComponent' do |t|
+      t.subspec 'FuseLogin' do |login|
+        login.source_files = 'FuseGroupsKits/Classes/BaseComponent/FuseLogin/*'
+        end
+      t.subspec 'FuTextField' do |textField|
+         textField.source_files = 'FuseGroupsKits/Classes/BaseComponent/FUSelectTextField/*'
+         end
+
+      t.subspec 'FuGrowTextView' do |textView|
+           textView.source_files = 'FuseGroupsKits/Classes/BaseComponent/GrowTextView/*'
+         end
+     end
+  
+  #s.resource_bundles = {
+  #    'FuseGroupsKits' => ['FuseGroupsKits/Assets/*.png']
+  #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  #s.dependency 'CTMediator'
   s.dependency 'CTMediaKit'
 end

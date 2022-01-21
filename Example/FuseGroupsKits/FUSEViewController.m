@@ -7,7 +7,7 @@
 //
 
 #import "FUSEViewController.h"
-#import "CTMediator+UserInfo.h"
+#import <CTMediator+UserInfo.h>
 @interface FUSEViewController ()
 @property (nonatomic, strong) UIButton *perInfoBtn;
 

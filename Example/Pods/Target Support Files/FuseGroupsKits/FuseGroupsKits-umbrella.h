@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "JLTextContentView.h"
+#import "JLTextView.h"
+#import "FUSelectTextField.h"
 #import "FuseLoginViewController.h"
 #import "Target_FuseLoginViewController.h"
 
