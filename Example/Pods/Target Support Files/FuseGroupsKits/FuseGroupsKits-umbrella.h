@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "FuseLoginViewController.h"
+#import "Target_FuseLoginViewController.h"
 
 FOUNDATION_EXPORT double FuseGroupsKitsVersionNumber;
 FOUNDATION_EXPORT const unsigned char FuseGroupsKitsVersionString[];

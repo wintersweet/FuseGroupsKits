@@ -12,6 +12,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CTMediator(UserInfo)
+
 - (UIViewController *)loginViewController:(NSString *)name age:(NSInteger)age;
 
 @end

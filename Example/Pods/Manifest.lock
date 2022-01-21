@@ -1,12 +1,17 @@
 PODS:
+  - CTMediaKit (0.1.0):
+    - CTMediator
   - CTMediator (46)
-  - FuseGroupsKits (0.1.0):
+  - FuseGroupsKits (1.0.2):
+    - CTMediaKit
     - CTMediator
 
 DEPENDENCIES:
   - FuseGroupsKits (from `../`)
 
 SPEC REPOS:
+  https://github.com/wintersweet/MySpecs.git:
+    - CTMediaKit
   trunk:
     - CTMediator
 
@@ -15,9 +20,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  CTMediaKit: 3322e9cf3eacede045ffabbed465e970b31f18a7
   CTMediator: f1cf58d509fb3192086c367711f039efd769b907
-  FuseGroupsKits: 06f72be95a386c305a7a9679e1f6f60df1d34b31
+  FuseGroupsKits: 64189bdef882e41dc8c8e0527d3d1d2750e56b72
 
-PODFILE CHECKSUM: bb7e61bf0c481df78e28262ae1679e289d5d8f87
+PODFILE CHECKSUM: e333d561bf1208844ff63e0dc4c663b74ebddd5f
 
 COCOAPODS: 1.11.2

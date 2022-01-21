@@ -1,3 +1,5 @@
+
+source 'https://github.com/wintersweet/MySpecs.git'
 use_frameworks!
 
 platform :ios, '9.0'

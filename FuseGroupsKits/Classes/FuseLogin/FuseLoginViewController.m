@@ -7,7 +7,6 @@
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 
 #import "FuseLoginViewController.h"
-#import <CTMediator/CTMediator.h>
 
 @interface FuseLoginViewController ()
 @property (nonatomic, strong) UIButton *loginBtn;
