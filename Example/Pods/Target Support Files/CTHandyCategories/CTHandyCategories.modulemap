@@ -1,0 +1,6 @@
+framework module CTHandyCategories {
+  umbrella header "CTHandyCategories-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FuseGroupsKits'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'A short description of FuseGroupsKits.'
 
 # This description is used to generate tags and improve search results.
@@ -39,9 +39,20 @@ TODO: Add long description of the pod here.
       t.subspec 'FuTextField' do |textField|
          textField.source_files = 'FuseGroupsKits/Classes/BaseComponent/FUSelectTextField/*'
          end
-
       t.subspec 'FuGrowTextView' do |textView|
            textView.source_files = 'FuseGroupsKits/Classes/BaseComponent/GrowTextView/*'
+         end
+      t.subspec 'Share' do |share|
+           share.source_files = 'FuseGroupsKits/Classes/BaseComponent/Share/*'
+         end
+      t.subspec 'FuseTools' do |tool|
+          tool.source_files = 'FuseGroupsKits/Classes/BaseComponent/FuseTools/*'
+         end
+      t.subspec 'FuseCategory' do |category|
+          category.source_files = 'FuseGroupsKits/Classes/BaseComponent/FuseCategory/*'
+         end
+      t.subspec 'MBNullSafe' do |nullSafe|
+          nullSafe.source_files = 'FuseGroupsKits/Classes/BaseComponent/MBNullSafe/*'
          end
      end
   
@@ -51,7 +62,12 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-  #s.dependency 'CTMediator'
+  #  s.dependency 'AFNetworking', '~> 2.3'
+  # s.dependency 'CTMediator'
   s.dependency 'CTMediaKit'
+  s.dependency 'FBSDKShareKit'
+  s.dependency 'YYModel'
+  s.dependency 'MJRefresh', '~> 3.1.12'
+  s.dependency 'MBProgressHUD'
+
 end
