@@ -1,85 +1,42 @@
 PODS:
-  - Bolts (1.9.0):
-    - Bolts/AppLinks (= 1.9.0)
-    - Bolts/Tasks (= 1.9.0)
-  - Bolts/AppLinks (1.9.0):
-    - Bolts/Tasks
-  - Bolts/Tasks (1.9.0)
   - CTHandyCategories (23):
     - HandyFrame
   - CTMediaKit (0.1.0):
     - CTMediator
   - CTMediator (15):
     - CTHandyCategories
-  - FBSDKCoreKit (4.32.0):
-    - Bolts (~> 1.7)
-  - FBSDKShareKit (4.32.0):
-    - FBSDKCoreKit (~> 4.32.0)
   - FuseGroupsKits (1.0.4):
     - CTMediaKit
-    - FBSDKShareKit
     - FuseGroupsKits/BaseComponent (= 1.0.4)
-    - MBProgressHUD
-    - MJRefresh (~> 3.1.12)
     - YYModel
   - FuseGroupsKits/BaseComponent (1.0.4):
     - CTMediaKit
-    - FBSDKShareKit
     - FuseGroupsKits/BaseComponent/FuGrowTextView (= 1.0.4)
     - FuseGroupsKits/BaseComponent/FuseCategory (= 1.0.4)
     - FuseGroupsKits/BaseComponent/FuseLogin (= 1.0.4)
     - FuseGroupsKits/BaseComponent/FuseTools (= 1.0.4)
     - FuseGroupsKits/BaseComponent/FuTextField (= 1.0.4)
     - FuseGroupsKits/BaseComponent/MBNullSafe (= 1.0.4)
-    - FuseGroupsKits/BaseComponent/Share (= 1.0.4)
-    - MBProgressHUD
-    - MJRefresh (~> 3.1.12)
     - YYModel
   - FuseGroupsKits/BaseComponent/FuGrowTextView (1.0.4):
     - CTMediaKit
-    - FBSDKShareKit
-    - MBProgressHUD
-    - MJRefresh (~> 3.1.12)
     - YYModel
   - FuseGroupsKits/BaseComponent/FuseCategory (1.0.4):
     - CTMediaKit
-    - FBSDKShareKit
-    - MBProgressHUD
-    - MJRefresh (~> 3.1.12)
     - YYModel
   - FuseGroupsKits/BaseComponent/FuseLogin (1.0.4):
     - CTMediaKit
-    - FBSDKShareKit
-    - MBProgressHUD
-    - MJRefresh (~> 3.1.12)
     - YYModel
   - FuseGroupsKits/BaseComponent/FuseTools (1.0.4):
     - CTMediaKit
-    - FBSDKShareKit
-    - MBProgressHUD
-    - MJRefresh (~> 3.1.12)
     - YYModel
   - FuseGroupsKits/BaseComponent/FuTextField (1.0.4):
     - CTMediaKit
-    - FBSDKShareKit
-    - MBProgressHUD
-    - MJRefresh (~> 3.1.12)
     - YYModel
   - FuseGroupsKits/BaseComponent/MBNullSafe (1.0.4):
     - CTMediaKit
-    - FBSDKShareKit
-    - MBProgressHUD
-    - MJRefresh (~> 3.1.12)
-    - YYModel
-  - FuseGroupsKits/BaseComponent/Share (1.0.4):
-    - CTMediaKit
-    - FBSDKShareKit
-    - MBProgressHUD
-    - MJRefresh (~> 3.1.12)
     - YYModel
   - HandyFrame (1.2.0)
-  - MBProgressHUD (1.1.0)
-  - MJRefresh (3.1.15.3)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
@@ -87,14 +44,9 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - Bolts
     - CTHandyCategories
     - CTMediator
-    - FBSDKCoreKit
-    - FBSDKShareKit
     - HandyFrame
-    - MBProgressHUD
-    - MJRefresh
     - YYModel
   https://github.com/wintersweet/MySpecs.git:
     - CTMediaKit
@@ -104,16 +56,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
   CTHandyCategories: 10f812a5f545a9d8da34112e068a6e9b469c6782
   CTMediaKit: 3322e9cf3eacede045ffabbed465e970b31f18a7
   CTMediator: d9122c972b29559d5d733a205e9b0a18c933b2ad
-  FBSDKCoreKit: 55d7f2ac45d9c4b9b6119f4e43900fe84b9b7b1b
-  FBSDKShareKit: 658780d0d108b8ad590a54afb5ac1427bdc8de28
-  FuseGroupsKits: 446aabae38f188ca72cbddc1ef5d8ef374c3a90b
+  FuseGroupsKits: 5fed508bc0eca6e8f561da0870943d0f16aa657f
   HandyFrame: 437df83ba7563c56cd55b9bd0128561995463110
-  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
-  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
 PODFILE CHECKSUM: 25ec68f0efe2b2c6c79e6235aa03097cb1772c35

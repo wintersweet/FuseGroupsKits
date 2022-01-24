@@ -23,18 +23,10 @@
 //判断全是空格
 + (BOOL)isEmptyString:(NSString *)str;
 
-//解析富文本
-+ (NSAttributedString *)parseHtml:(NSString *)htmlString;
 //验证ktp
 + (BOOL)isValidateKtp:(NSString *)ktp;
 
-
-//fix bug mym
-+ (NSString *)threeSeparteWithDoubleNotUsingUnit:(double)num;
-
 + (NSString *)threeSeparteWithDouble:(double)num;
-
-+ (NSString *)getPureStringBydelete:(NSString *)inputStr;
 
 + (UIViewController *)getCurrentVC;
 

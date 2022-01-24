@@ -1,8 +1,8 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/FuseGroupsKits
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Bolts" "${PODS_CONFIGURATION_BUILD_DIR}/CTHandyCategories" "${PODS_CONFIGURATION_BUILD_DIR}/CTMediaKit" "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator" "${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit" "${PODS_CONFIGURATION_BUILD_DIR}/FBSDKShareKit" "${PODS_CONFIGURATION_BUILD_DIR}/HandyFrame" "${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD" "${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh" "${PODS_CONFIGURATION_BUILD_DIR}/YYModel"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CTHandyCategories" "${PODS_CONFIGURATION_BUILD_DIR}/CTMediaKit" "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator" "${PODS_CONFIGURATION_BUILD_DIR}/HandyFrame" "${PODS_CONFIGURATION_BUILD_DIR}/YYModel"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-OTHER_LDFLAGS = $(inherited) -framework "CTMediaKit" -framework "CoreFoundation" -framework "CoreGraphics" -framework "FBSDKShareKit" -framework "Foundation" -framework "MBProgressHUD" -framework "MJRefresh" -framework "QuartzCore" -framework "YYModel" -weak_framework "Accounts" -weak_framework "AudioToolbox" -weak_framework "CoreGraphics" -weak_framework "CoreLocation" -weak_framework "Foundation" -weak_framework "QuartzCore" -weak_framework "Security" -weak_framework "Social" -weak_framework "UIKit"
+OTHER_LDFLAGS = $(inherited) -framework "CTMediaKit" -framework "CoreFoundation" -framework "Foundation" -framework "YYModel"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}

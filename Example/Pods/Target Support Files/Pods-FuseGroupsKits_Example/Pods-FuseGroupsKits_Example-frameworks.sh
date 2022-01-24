@@ -176,29 +176,19 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CTHandyCategories/CTHandyCategories.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CTMediaKit/CTMediaKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FuseGroupsKits/FuseGroupsKits.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HandyFrame/HandyFrame.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CTHandyCategories/CTHandyCategories.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CTMediaKit/CTMediaKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FuseGroupsKits/FuseGroupsKits.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HandyFrame/HandyFrame.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

@@ -22,16 +22,7 @@
     "CTMediaKit": [
 
     ],
-    "FBSDKShareKit": [
-
-    ],
     "YYModel": [
-
-    ],
-    "MJRefresh": [
-      "~> 3.1.12"
-    ],
-    "MBProgressHUD": [
 
     ]
   },
@@ -50,10 +41,6 @@
         {
           "name": "FuGrowTextView",
           "source_files": "FuseGroupsKits/Classes/BaseComponent/GrowTextView/*"
-        },
-        {
-          "name": "Share",
-          "source_files": "FuseGroupsKits/Classes/BaseComponent/Share/*"
         },
         {
           "name": "FuseTools",

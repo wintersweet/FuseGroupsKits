@@ -42,9 +42,6 @@ TODO: Add long description of the pod here.
       t.subspec 'FuGrowTextView' do |textView|
            textView.source_files = 'FuseGroupsKits/Classes/BaseComponent/GrowTextView/*'
          end
-      t.subspec 'Share' do |share|
-           share.source_files = 'FuseGroupsKits/Classes/BaseComponent/Share/*'
-         end
       t.subspec 'FuseTools' do |tool|
           tool.source_files = 'FuseGroupsKits/Classes/BaseComponent/FuseTools/*'
          end
@@ -65,9 +62,6 @@ TODO: Add long description of the pod here.
   #  s.dependency 'AFNetworking', '~> 2.3'
   # s.dependency 'CTMediator'
   s.dependency 'CTMediaKit'
-  s.dependency 'FBSDKShareKit'
   s.dependency 'YYModel'
-  s.dependency 'MJRefresh', '~> 3.1.12'
-  s.dependency 'MBProgressHUD'
 
 end
