@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FuseGroupsKits'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'A short description of FuseGroupsKits.'
 
 # This description is used to generate tags and improve search results.
@@ -31,25 +31,23 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
 #  s.source_files = 'FuseGroupsKits/Classes/BaseComponent/**/*'
-  
+  path = 'FuseGroupsKits/Classes/BaseComponent/'
   s.subspec 'BaseComponent' do |t|
       t.subspec 'FuseLogin' do |login|
-        login.source_files = 'FuseGroupsKits/Classes/BaseComponent/FuseLogin/*'
+        login.source_files = path +'FuseLogin/*'
         end
       t.subspec 'FuTextField' do |textField|
-         textField.source_files = 'FuseGroupsKits/Classes/BaseComponent/FUSelectTextField/*'
+         textField.source_files = path +'FUSelectTextField/*'
          end
       t.subspec 'FuGrowTextView' do |textView|
-           textView.source_files = 'FuseGroupsKits/Classes/BaseComponent/GrowTextView/*'
-         end
-      t.subspec 'FuseTools' do |tool|
-          tool.source_files = 'FuseGroupsKits/Classes/BaseComponent/FuseTools/*'
+           textView.source_files = path +'GrowTextView/*'
          end
       t.subspec 'FuseCategory' do |category|
-          category.source_files = 'FuseGroupsKits/Classes/BaseComponent/FuseCategory/*'
+          category.source_files = path +'FuseCategory/*.{h,m}'
+          category.public_header_files = path + 'FuseCategory/*.{h}'
          end
       t.subspec 'MBNullSafe' do |nullSafe|
-          nullSafe.source_files = 'FuseGroupsKits/Classes/BaseComponent/MBNullSafe/*'
+          nullSafe.source_files = path +'MBNullSafe/*'
          end
      end
   
