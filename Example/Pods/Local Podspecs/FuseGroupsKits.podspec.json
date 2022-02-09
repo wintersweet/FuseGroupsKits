@@ -54,6 +54,14 @@
           "public_header_files": "FuseGroupsKits/Classes/BaseComponent/FusePermission/*.{h}"
         }
       ]
+    },
+    {
+      "name": "Category",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "source_files": "FuseGroupsKits/Classes/BaseComponent/**/*.{h,m}",
+      "public_header_files": "FuseGroupsKits/Classes/BaseComponent/**/*.h"
     }
   ]
 }

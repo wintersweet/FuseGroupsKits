@@ -8,6 +8,7 @@ PODS:
   - FuseGroupsKits (1.0.6):
     - CTMediaKit
     - FuseGroupsKits/BaseComponent (= 1.0.6)
+    - FuseGroupsKits/Category (= 1.0.6)
     - YYModel
   - FuseGroupsKits/BaseComponent (1.0.6):
     - CTMediaKit
@@ -30,6 +31,9 @@ PODS:
     - CTMediaKit
     - YYModel
   - FuseGroupsKits/BaseComponent/MBNullSafe (1.0.6):
+    - CTMediaKit
+    - YYModel
+  - FuseGroupsKits/Category (1.0.6):
     - CTMediaKit
     - YYModel
   - HandyFrame (1.2.0)
@@ -55,7 +59,7 @@ SPEC CHECKSUMS:
   CTHandyCategories: 10f812a5f545a9d8da34112e068a6e9b469c6782
   CTMediaKit: 3322e9cf3eacede045ffabbed465e970b31f18a7
   CTMediator: d9122c972b29559d5d733a205e9b0a18c933b2ad
-  FuseGroupsKits: 01323eae3f752121d2a23078adf5933ec3505d8a
+  FuseGroupsKits: 6b94a57f25e89ad27d7114c9610e0e5941c000f5
   HandyFrame: 437df83ba7563c56cd55b9bd0128561995463110
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 

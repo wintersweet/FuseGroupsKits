@@ -53,7 +53,12 @@ TODO: Add long description of the pod here.
           p.public_header_files = path + 'FusePermission/*.{h}'
          end
      end
-  
+  # 支持 CAID 渠道匹配
+  s.subspec 'Category' do |f|
+    f.ios.deployment_target = '9.0'
+    f.source_files = "FuseGroupsKits/Classes/BaseComponent/**/*.{h,m}"
+    f.public_header_files = 'FuseGroupsKits/Classes/BaseComponent/**/*.h'
+  end
   #s.resource_bundles = {
   #    'FuseGroupsKits' => ['FuseGroupsKits/Assets/*.png']
   #}
