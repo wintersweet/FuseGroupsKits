@@ -36,18 +36,25 @@ TODO: Add long description of the pod here.
       t.subspec 'FuseLogin' do |login|
         login.source_files = path +'FuseLogin/*'
         end
-      t.subspec 'FuTextField' do |textField|
-         textField.source_files = path +'FUSelectTextField/*'
+      t.subspec 'FuTextField' do |tf|
+         tf.source_files = path +'FUSelectTextField/*'
          end
-      t.subspec 'FuGrowTextView' do |textView|
-           textView.source_files = path +'GrowTextView/*'
+      t.subspec 'FuGrowTextView' do |tv|
+           tv.source_files = path +'GrowTextView/*'
+           tv.public_header_files = path + 'GrowTextView/*.{h}'
+
          end
-      t.subspec 'FuseCategory' do |category|
-          category.source_files = path +'FuseCategory/*.{h,m}'
-          category.public_header_files = path + 'FuseCategory/*.{h}'
+      t.subspec 'FuseCategory' do |c|
+          c.source_files = path +'FuseCategory/*.{h,m}'
+          c.public_header_files = path + 'FuseCategory/*.{h}'
          end
-      t.subspec 'MBNullSafe' do |nullSafe|
-          nullSafe.source_files = path +'MBNullSafe/*'
+      t.subspec 'MBNullSafe' do |s|
+          s.source_files = path +'MBNullSafe/*'
+          s.public_header_files = path + 'MBNullSafe/*.{h}'
+         end
+      t.subspec 'FusePermission' do |p|
+          p.source_files = path +'FusePermission/*'
+          p.public_header_files = path + 'FusePermission/*.{h}'
          end
      end
   
