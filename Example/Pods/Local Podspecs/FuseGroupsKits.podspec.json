@@ -1,6 +1,6 @@
 {
   "name": "FuseGroupsKits",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "summary": "A short description of FuseGroupsKits.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/wintersweet/FuseGroupsKits",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wintersweet/FuseGroupsKits.git",
-    "tag": "1.0.5"
+    "tag": "1.0.6"
   },
   "platforms": {
     "ios": "9.0"
@@ -42,11 +42,6 @@
           "name": "FuGrowTextView",
           "source_files": "FuseGroupsKits/Classes/BaseComponent/GrowTextView/*",
           "public_header_files": "FuseGroupsKits/Classes/BaseComponent/GrowTextView/*.{h}"
-        },
-        {
-          "name": "FuseCategory",
-          "source_files": "FuseGroupsKits/Classes/BaseComponent/FuseCategory/*.{h,m}",
-          "public_header_files": "FuseGroupsKits/Classes/BaseComponent/FuseCategory/*.{h}"
         },
         {
           "name": "MBNullSafe",

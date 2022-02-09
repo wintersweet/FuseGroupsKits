@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FuseGroupsKits'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'A short description of FuseGroupsKits.'
 
 # This description is used to generate tags and improve search results.
@@ -43,10 +43,6 @@ TODO: Add long description of the pod here.
            tv.source_files = path +'GrowTextView/*'
            tv.public_header_files = path + 'GrowTextView/*.{h}'
 
-         end
-      t.subspec 'FuseCategory' do |c|
-          c.source_files = path +'FuseCategory/*.{h,m}'
-          c.public_header_files = path + 'FuseCategory/*.{h}'
          end
       t.subspec 'MBNullSafe' do |s|
           s.source_files = path +'MBNullSafe/*'
