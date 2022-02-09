@@ -40,7 +40,8 @@
         },
         {
           "name": "FuGrowTextView",
-          "source_files": "FuseGroupsKits/Classes/BaseComponent/GrowTextView/*"
+          "source_files": "FuseGroupsKits/Classes/BaseComponent/GrowTextView/*",
+          "public_header_files": "FuseGroupsKits/Classes/BaseComponent/GrowTextView/*.{h}"
         },
         {
           "name": "FuseCategory",
@@ -49,7 +50,13 @@
         },
         {
           "name": "MBNullSafe",
-          "source_files": "FuseGroupsKits/Classes/BaseComponent/MBNullSafe/*"
+          "source_files": "FuseGroupsKits/Classes/BaseComponent/MBNullSafe/*",
+          "public_header_files": "FuseGroupsKits/Classes/BaseComponent/MBNullSafe/*.{h}"
+        },
+        {
+          "name": "FusePermission",
+          "source_files": "FuseGroupsKits/Classes/BaseComponent/FusePermission/*",
+          "public_header_files": "FuseGroupsKits/Classes/BaseComponent/FusePermission/*.{h}"
         }
       ]
     }

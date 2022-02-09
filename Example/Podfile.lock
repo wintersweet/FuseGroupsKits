@@ -14,6 +14,7 @@ PODS:
     - FuseGroupsKits/BaseComponent/FuGrowTextView (= 1.0.5)
     - FuseGroupsKits/BaseComponent/FuseCategory (= 1.0.5)
     - FuseGroupsKits/BaseComponent/FuseLogin (= 1.0.5)
+    - FuseGroupsKits/BaseComponent/FusePermission (= 1.0.5)
     - FuseGroupsKits/BaseComponent/FuTextField (= 1.0.5)
     - FuseGroupsKits/BaseComponent/MBNullSafe (= 1.0.5)
     - YYModel
@@ -24,6 +25,9 @@ PODS:
     - CTMediaKit
     - YYModel
   - FuseGroupsKits/BaseComponent/FuseLogin (1.0.5):
+    - CTMediaKit
+    - YYModel
+  - FuseGroupsKits/BaseComponent/FusePermission (1.0.5):
     - CTMediaKit
     - YYModel
   - FuseGroupsKits/BaseComponent/FuTextField (1.0.5):
@@ -39,13 +43,13 @@ DEPENDENCIES:
   - FuseGroupsKits (from `../`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/wintersweet/MySpecs.git:
+    - CTMediaKit
+  trunk:
     - CTHandyCategories
     - CTMediator
     - HandyFrame
     - YYModel
-  https://github.com/wintersweet/MySpecs.git:
-    - CTMediaKit
 
 EXTERNAL SOURCES:
   FuseGroupsKits:
@@ -55,10 +59,10 @@ SPEC CHECKSUMS:
   CTHandyCategories: 10f812a5f545a9d8da34112e068a6e9b469c6782
   CTMediaKit: 3322e9cf3eacede045ffabbed465e970b31f18a7
   CTMediator: d9122c972b29559d5d733a205e9b0a18c933b2ad
-  FuseGroupsKits: 43e0f17e82f550a16da59197d747bdf6e4d34036
+  FuseGroupsKits: f4d4ff78388aca4edc0f8a530154ca0bde5f5479
   HandyFrame: 437df83ba7563c56cd55b9bd0128561995463110
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 25ec68f0efe2b2c6c79e6235aa03097cb1772c35
+PODFILE CHECKSUM: 3a22535d644ce92c036c430ce6c33cbd6879a183
 
 COCOAPODS: 1.11.2

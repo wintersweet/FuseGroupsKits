@@ -39,6 +39,8 @@
 #import "UIViewController+KSGuid.h"
 #import "FuseLoginViewController.h"
 #import "Target_FuseLoginViewController.h"
+#import "FUAuthManager.h"
+#import "FULocationTool.h"
 #import "NSArray+NullSafe.h"
 #import "NSMutableArray+NullSafe.h"
 #import "NSMutableDictionary+NullSafe.h"
