@@ -1,6 +1,6 @@
 {
   "name": "FuseGroupsKits",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "summary": "A short description of FuseGroupsKits.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/wintersweet/FuseGroupsKits",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/wintersweet/FuseGroupsKits.git",
-    "tag": "1.0.6"
+    "tag": "1.0.7"
   },
   "platforms": {
     "ios": "9.0"
+  },
+  "resource_bundles": {
+    "FuseGroupsKits": [
+      "FuseGroupsKits/Assets/**/*"
+    ]
   },
   "dependencies": {
     "CTMediaKit": [
@@ -56,12 +61,20 @@
       ]
     },
     {
-      "name": "Category",
+      "name": "FuseCategory",
       "platforms": {
         "ios": "9.0"
       },
-      "source_files": "FuseGroupsKits/Classes/BaseComponent/**/*.{h,m}",
-      "public_header_files": "FuseGroupsKits/Classes/BaseComponent/**/*.h"
+      "source_files": "FuseGroupsKits/Classes/BaseComponent/FuseCategory/*.{h,m}",
+      "public_header_files": "FuseGroupsKits/Classes/BaseComponent/FuseCategory/*.h"
+    },
+    {
+      "name": "FuseAlertAction",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "source_files": "FuseGroupsKits/Classes/BaseComponent/FuseAlertAction/*.{h,m}",
+      "public_header_files": "FuseGroupsKits/Classes/BaseComponent/FuseAlertAction/*.h"
     }
   ]
 }

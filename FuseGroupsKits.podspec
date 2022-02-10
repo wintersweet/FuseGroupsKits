@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FuseGroupsKits'
-  s.version          = '1.0.6'
+  s.version          = '1.0.7'
   s.summary          = 'A short description of FuseGroupsKits.'
 
 # This description is used to generate tags and improve search results.
@@ -54,20 +54,25 @@ TODO: Add long description of the pod here.
          end
      end
   # 支持 CAID 渠道匹配
-  s.subspec 'Category' do |f|
+  s.subspec 'FuseCategory' do |f|
     f.ios.deployment_target = '9.0'
-    f.source_files = "FuseGroupsKits/Classes/BaseComponent/**/*.{h,m}"
-    f.public_header_files = 'FuseGroupsKits/Classes/BaseComponent/**/*.h'
+    f.source_files = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/*.{h,m}"
+    f.public_header_files = 'FuseGroupsKits/Classes/BaseComponent/FuseCategory/*.h'
   end
-  #s.resource_bundles = {
-  #    'FuseGroupsKits' => ['FuseGroupsKits/Assets/*.png']
-  #}
+  s.subspec 'FuseAlertAction' do |a|
+    a.ios.deployment_target = '9.0'
+    a.source_files = "FuseGroupsKits/Classes/BaseComponent/FuseAlertAction/*.{h,m}"
+    a.public_header_files = 'FuseGroupsKits/Classes/BaseComponent/FuseAlertAction/*.h'
+  end
+  s.resource_bundles = {
+      'FuseGroupsKits' => ['FuseGroupsKits/Assets/**/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   #  s.dependency 'AFNetworking', '~> 2.3'
-  # s.dependency 'CTMediator'
   s.dependency 'CTMediaKit'
   s.dependency 'YYModel'
+  #s.dependency 'Masonry'
 
 end
