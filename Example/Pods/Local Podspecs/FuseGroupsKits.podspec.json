@@ -62,6 +62,11 @@
     },
     {
       "name": "FuseCategory",
+      "dependencies": {
+        "FuseGroupsKits/BaseComponent": [
+
+        ]
+      },
       "platforms": {
         "ios": "9.0"
       },
@@ -70,6 +75,11 @@
     },
     {
       "name": "FuseAlertAction",
+      "dependencies": {
+        "FuseGroupsKits/BaseComponent": [
+
+        ]
+      },
       "platforms": {
         "ios": "9.0"
       },

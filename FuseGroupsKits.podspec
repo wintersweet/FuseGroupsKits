@@ -53,13 +53,14 @@ TODO: Add long description of the pod here.
           p.public_header_files = path + 'FusePermission/*.{h}'
          end
      end
-  # 支持 CAID 渠道匹配
   s.subspec 'FuseCategory' do |f|
+    f.dependency 'FuseGroupsKits/BaseComponent'
     f.ios.deployment_target = '9.0'
     f.source_files = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/*.{h,m}"
     f.public_header_files = 'FuseGroupsKits/Classes/BaseComponent/FuseCategory/*.h'
   end
   s.subspec 'FuseAlertAction' do |a|
+    a.dependency 'FuseGroupsKits/BaseComponent'
     a.ios.deployment_target = '9.0'
     a.source_files = "FuseGroupsKits/Classes/BaseComponent/FuseAlertAction/*.{h,m}"
     a.public_header_files = 'FuseGroupsKits/Classes/BaseComponent/FuseAlertAction/*.h'
